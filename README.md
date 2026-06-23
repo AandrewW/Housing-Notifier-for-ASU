@@ -1,5 +1,7 @@
 # Campus Housing Availability Monitor
 
+<img width="346" height="465" alt="image" src="https://github.com/user-attachments/assets/d25c576c-14cf-47e1-aa4e-85d6d9485596" />
+
 Campus Housing Availability Monitor is an unofficial browser extension that
 watches a signed-in StarRez housing page and alerts you when selected campus
 options appear or disappear.
