@@ -9,10 +9,10 @@ options appear or disappear.
 
 This release includes four campus filters:
 
-**- Polytechnic
-- Tempe
-- Downtown Phoenix
-- West**
+- **Polytechnic**
+- **Tempe**
+- **Downtown Phoenix**
+- **West**
 
 The extension does not sign in for you, store a housing password, select a
 room, or submit housing forms.
