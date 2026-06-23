@@ -1,4 +1,5 @@
 # Campus Housing Availability Monitor
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
    <img width="345" height="537" alt="image" src="https://github.com/user-attachments/assets/f595e9ea-76c7-463c-9773-54ec12a0d7f8" />
 
@@ -205,3 +206,8 @@ confirming that the **Choose My Community** page is visible.
 This is an unofficial community project. It is not affiliated with, sponsored
 by, or endorsed by any university or housing portal provider. All third-party
 names belong to their respective owners.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+Copyright © 2026 AAndrewW
