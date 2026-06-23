@@ -210,4 +210,5 @@ names belong to their respective owners.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 Copyright © 2026 AAndrewW
