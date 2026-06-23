@@ -29,7 +29,7 @@ room, or submit housing forms.
 1. Download the project ZIP from GitHub.
 2. In the Downloads folder, right-click the ZIP and select **Extract all**.
 
-   <img src="docs/images/extract-all.png" alt="Windows Extract all option" width="192">
+   <img width="96" height="32" alt="image" src="https://github.com/user-attachments/assets/8cb2fe76-6645-4795-8e22-23431a893215" />
 
 3. Open the browser's extensions page:
    - Chrome: `chrome://extensions`
