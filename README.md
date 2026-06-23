@@ -1,9 +1,10 @@
 # Campus Housing Availability Monitor
 
-<img width="346" height="465" alt="image" src="https://github.com/user-attachments/assets/d25c576c-14cf-47e1-aa4e-85d6d9485596" />
+   <img width="345" height="537" alt="image" src="https://github.com/user-attachments/assets/f595e9ea-76c7-463c-9773-54ec12a0d7f8" />
+
 
 Campus Housing Availability Monitor is an **unofficial** browser extension that
-watches a signed-in StarRez housing page and alerts you via discord or desktop notifications when selected campus
+watches a signed-in StarRez housing page and alerts you when selected campus
 options appear or disappear.
 
 This release includes four campus filters:
@@ -14,7 +15,7 @@ This release includes four campus filters:
 - West**
 
 The extension does not sign in for you, store a housing password, select a
-room, or submit housing forms. The only thing is does it notify you.
+room, or submit housing forms.
 
 ## Requirements
 
@@ -25,17 +26,17 @@ room, or submit housing forms. The only thing is does it notify you.
 
 ## Install the extension
 
-1. Download the project ZIP from GitHub and extract it.
-2. Open the browser's extensions page:
+1. Download the project ZIP from GitHub.
+2. In the Downloads folder, right-click the ZIP and select **Extract all**.
+
+   <img src="docs/images/extract-all.png" alt="Windows Extract all option" width="192">
+
+3. Open the browser's extensions page:
    - Chrome: `chrome://extensions`
    - Edge: `edge://extensions`
    - Opera: `opera://extensions`
-3. Turn on **Developer mode**.
-4. Select **Load unpacked**.
-
-<img width="96" height="32" alt="image" src="https://github.com/user-attachments/assets/b8e6da73-4fa0-4118-a225-e00455f685dd" />
-
-
+4. Turn on **Developer mode**.
+5. Select **Load unpacked**.
 6. Choose the extracted project folder containing `manifest.json`.
 7. Pin **Campus Housing Availability Monitor** to the browser toolbar.
 
@@ -50,12 +51,26 @@ Open the extension and select the campuses to watch:
 
 The choices can be changed at any time.
 
-### 2. Set the check interval
+### 2. Choose which campuses mention everyone
+
+The **Discord @everyone mentions** row is separate from the monitored-campus
+row:
+
+- Bright button: a newly available campus mentions `@everyone`
+- Dark button: the alert is sent without `@everyone`
+- Disabled button: that campus is not currently being monitored
+
+By default, every monitored campus has mentions enabled. Turning a campus off
+also disables its mention. Turning it back on enables its mention by default.
+These settings affect newly available messages only; disappearance messages
+never mention everyone.
+
+### 3. Set the check interval
 
 Choose how often the housing page should refresh. Five minutes is a reasonable
 starting point. The minimum interval is two minutes.
 
-### 3. Set up Discord notifications (optional)
+### 4. Set up Discord notifications (optional)
 
 Desktop notifications work without Discord. To also receive Discord messages:
 
@@ -73,7 +88,7 @@ Use a regular text channel. Forum and media channels are not supported.
 Treat the webhook URL like a password. Anyone who has it can post to that
 Discord channel. Delete and recreate the webhook if it is exposed.
 
-### 4. Start monitoring
+### 5. Start monitoring
 
 1. Sign in to the housing portal normally.
 2. Open the **Choose My Community** page.
@@ -119,8 +134,9 @@ Tempe is now available. West is no longer available.
 
 - An unchanged result does not send another alert.
 - A campus that disappears generates a **no longer available** message.
-- Polytechnic becoming available mentions `@everyone` in Discord.
-- Other campus alerts do not mention `@everyone`.
+- Newly available campuses mention `@everyone` only when enabled in the
+  **Discord @everyone mentions** row.
+- Disappearance alerts never mention `@everyone`.
 - A notification means the campus appeared selectable when checked. It does
   not guarantee that space will remain available.
 
