@@ -2,19 +2,19 @@
 
 <img width="346" height="465" alt="image" src="https://github.com/user-attachments/assets/d25c576c-14cf-47e1-aa4e-85d6d9485596" />
 
-Campus Housing Availability Monitor is an unofficial browser extension that
-watches a signed-in StarRez housing page and alerts you when selected campus
+Campus Housing Availability Monitor is an **unofficial** browser extension that
+watches a signed-in StarRez housing page and alerts you via discord or desktop notifications when selected campus
 options appear or disappear.
 
 This release includes four campus filters:
 
-- Polytechnic
+**- Polytechnic
 - Tempe
 - Downtown Phoenix
-- West
+- West**
 
 The extension does not sign in for you, store a housing password, select a
-room, or submit housing forms.
+room, or submit housing forms. The only thing is does it notify you.
 
 ## Requirements
 
@@ -32,8 +32,12 @@ room, or submit housing forms.
    - Opera: `opera://extensions`
 3. Turn on **Developer mode**.
 4. Select **Load unpacked**.
-5. Choose the extracted project folder containing `manifest.json`.
-6. Pin **Campus Housing Availability Monitor** to the browser toolbar.
+
+<img width="96" height="32" alt="image" src="https://github.com/user-attachments/assets/b8e6da73-4fa0-4118-a225-e00455f685dd" />
+
+
+6. Choose the extracted project folder containing `manifest.json`.
+7. Pin **Campus Housing Availability Monitor** to the browser toolbar.
 
 ## First-time setup
 
